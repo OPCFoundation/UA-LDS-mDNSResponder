@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e14b891c-830f-42bc-83f3-abb8634aa68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{018f9bd8-7cff-4814-8aa7-dde2275262ab}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;rc</Extensions>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{085308b8-c7d5-4c6a-bdbc-fe17e142c75d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\AboutDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ChooserDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\LoginDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mDNSCore\DNSCommon.c">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mDNSCore\DNSDigest.c">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DNSServices\DNSServices.c">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\DebugServices.c">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mDNSCore\mDNS.c">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\mDNSWin32.c">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\mDNSCore\uDNS.c">
+      <Filter>Support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\AboutDialog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\ChooserDialog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\LoginDialog.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\StdAfx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonServices.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mDNSCore\DNSCommon.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\DebugServices.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mDNSCore\mDNSClientAPI.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mDNSCore\mDNSDebug.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\mDNSCore\uDNS.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Application.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Application.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Application.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
