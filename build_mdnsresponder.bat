@@ -21,7 +21,7 @@ msbuild mDNSResponder.sln /p:Configuration=Release /p:Platform=Win32
 XCOPY /S /Q /Y %SRCDIR%\mDNSWindows\SystemService\Win32\Release\*.exe %INSTALLDIR%\bin\
 
 ECHO STEP 5) Sign the Binaries
-IF EXIST "%SIGNTOOL%" CALL "%SIGNTOOL%" %INSTALLDIR%\bin\*.exe /sha1
+IF EXIST "%SIGNTOOL%" CALL "%SIGNTOOL%" %INSTALLDIR%\bin\*.exe /dual
 
 ECHO *** ALL DONE ***
 GOTO theEnd
