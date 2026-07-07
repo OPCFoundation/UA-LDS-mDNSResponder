@@ -1,66 +1,31 @@
-/*
-   NICTA Public Software Licence
-   Version 1.0
-
-   Copyright © 2004 National ICT Australia Ltd
-
-   All rights reserved.
-
-   By this licence, National ICT Australia Ltd (NICTA) grants permission,
-   free of charge, to any person who obtains a copy of this software
-   and any associated documentation files ("the Software") to use and
-   deal with the Software in source code and binary forms without
-   restriction, with or without modification, and to permit persons
-   to whom the Software is furnished to do so, provided that the
-   following conditions are met:
-
-   - Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimers.
-   - Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimers in
-   the documentation and/or other materials provided with the
-   distribution.
-   - The name of NICTA may not be used to endorse or promote products
-   derived from this Software without specific prior written permission.
-
-   EXCEPT AS EXPRESSLY STATED IN THIS LICENCE AND TO THE FULL EXTENT
-   PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS-IS" AND
-   NICTA MAKES NO REPRESENTATIONS, WARRANTIES OR CONDITIONS OF ANY
-   KIND, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY
-   REPRESENTATIONS, WARRANTIES OR CONDITIONS REGARDING THE CONTENTS
-   OR ACCURACY OF THE SOFTWARE, OR OF TITLE, MERCHANTABILITY, FITNESS
-   FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, THE ABSENCE OF LATENT
-   OR OTHER DEFECTS, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR
-   NOT DISCOVERABLE.
-
-   TO THE FULL EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL
-   NICTA BE LIABLE ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,
-   NEGLIGENCE) FOR ANY LOSS OR DAMAGE WHATSOEVER, INCLUDING (WITHOUT
-   LIMITATION) LOSS OF PRODUCTION OR OPERATION TIME, LOSS, DAMAGE OR
-   CORRUPTION OF DATA OR RECORDS; OR LOSS OF ANTICIPATED SAVINGS,
-   OPPORTUNITY, REVENUE, PROFIT OR GOODWILL, OR OTHER ECONOMIC LOSS;
-   OR ANY SPECIAL, INCIDENTAL, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
-   EXEMPLARY DAMAGES ARISING OUT OF OR IN CONNECTION WITH THIS LICENCE,
-   THE SOFTWARE OR THE USE OF THE SOFTWARE, EVEN IF NICTA HAS BEEN
-   ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-   If applicable legislation implies warranties or conditions, or
-   imposes obligations or liability on NICTA in respect of the Software
-   that cannot be wholly or partly excluded, restricted or modified,
-   NICTA's liability is limited, to the full extent permitted by the
-   applicable legislation, at its option, to:
-
-   a. in the case of goods, any one or more of the following:
-   i.   the replacement of the goods or the supply of equivalent goods;
-   ii.  the repair of the goods;
-   iii. the payment of the cost of replacing the goods or of acquiring
-       equivalent goods;
-   iv.  the payment of the cost of having the goods repaired; or
-   b. in the case of services:
-   i.   the supplying of the services again; or
-   ii.  the payment of the cost of having the services supplied
-       again.
- */
+/* ========================================================================
+ * Copyright (c) 2005-2026, OPC Federation AISBL, All rights reserved.
+ *
+ * OPC Foundation MIT License 1.00
+ * 
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * The complete license agreement can be found here:
+ * http://opcfoundation.org/License/MIT/1.00/
+ * ======================================================================*/
 
 /*
     NSSwitch Implementation of mDNS interface.
