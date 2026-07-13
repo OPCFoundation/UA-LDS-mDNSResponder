@@ -1,37 +1,32 @@
-/* -*- Mode: C; tab-width: 4 -*-
+/* ========================================================================
+ * Copyright (c) 2005-2026, OPC Federation AISBL, All rights reserved.
  *
- * Copyright (c) 2003-2004 Apple Computer, Inc. All rights reserved.
+ * OPC Foundation MIT License 1.00
+ * 
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this software and associated documentation
+ * files (the "Software"), to deal in the Software without
+ * restriction, including without limitation the rights to use,
+ * copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following
+ * conditions:
+ * 
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ * OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * 
- *     http://www.apache.org/licenses/LICENSE-2.0
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * The complete license agreement can be found here:
+ * http://opcfoundation.org/License/MIT/1.00/
+ * ======================================================================*/
 
- * 
- * NOTE:
- * 
- * These .Net APIs are a work in progress, currently being discussed and refined.
- * If you plan to build an application based on these APIs, you may wish to
- * statically link this code into your application, or otherwise distribute
- * the DLL so that it installs into the same folder as your application
- * (not into any common system area where it might interfere with other
- * applications using a future completed version of these APIs).
- * If you plan to do this, please be sure to inform us by sending email
- * to bonjour@apple.com to let us know.
- * You may want to discuss what you're doing on the Bonjour mailing
- * list to see if others in similar positions have any suggestions for you:
- * 
- * <http://lists.apple.com/bonjour-dev/>
- * 
- */
-    
 #pragma once
 
 #include <dns_sd.h>
