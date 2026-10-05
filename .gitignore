@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+
+*/SystemService/Win32/
+*/SystemService/x64/
