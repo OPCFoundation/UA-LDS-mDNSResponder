@@ -1,0 +1,66 @@
+{
+  "_comment": [
+    "Component inventory for the OPC Foundation mDNSResponder repository.",
+    "",
+    "UA-LDS-Installers project consumes this file to compose the SBOM for the installer the components it includes.",
+    "",
+    "RULE: adding or bumping any shipped component requires updating this file in the same pull request.",
+    "",
+    "Schema is documented in UA-LDS-Installers/sbom/README.md."
+  ],
+
+  "schemaVersion": 2,
+
+  "project": {
+    "id": "mdnsresponder",
+    "name": "mDNSResponder (OPC Foundation fork)",
+    "group": "org.opcfoundation",
+    "description": "Bonjour/mDNS responder service used by the OPC UA Local Discovery Server.",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/OPCFoundation/UA-LDS-mDNSResponder",
+    "supplier": { "name": "OPC Federation AISBL", "url": "https://opcfoundation.org" },
+    "craRole": "open-source-steward",
+    "primaryComponent": "mdnsresponder",
+    "version": "576.30.4",
+    "versionFrom": { "kind": "literal" }
+  },
+
+  "buildTools": [
+    { "name": "MSVC", "version": "v143", "supplier": "Microsoft" }
+  ],
+
+  "components": [
+    {
+      "key": "mdnsresponder",
+      "name": "mDNSResponder",
+      "type": "application",
+      "artifactFile": "mDNSResponder.exe",
+      "version": "576.30.4",
+      "versionFrom": { "kind": "literal" },
+      "licenses": ["Apache-2.0"],
+      "supplier": "Apple Inc.",
+      "purl": "pkg:github/OPCFoundation/UA-LDS-mDNSResponder@{sha}",
+      "shaFrom": ".",
+      "cpe": "cpe:2.3:a:apple:mdnsresponder:576.30.4:*:*:*:*:*:*:*",
+      "cveMonitoring": "manual",
+      "exposure": "network-facing",
+      "notes": "Listens for and emits mDNS/DNS-SD traffic on the local network segment. A fork of Apple mDNSResponder, version taken from _DNS_SD_H (5763004) in mDNSShared/dns_sd.h, which is roughly a decade behind upstream - network-facing plus substantially stale is the combination that makes a CVE delta assessment against current upstream the highest-value open security task for this project. Upstream is Apache-2.0 notwithstanding the MIT assertion in this fork's LICENSE.md, which should be corrected. CPE matching against a fork is indicative only; treat hits as requiring manual confirmation."
+    },
+    {
+      "key": "msvc-crt",
+      "name": "Microsoft Visual C++ Runtime Library",
+      "type": "library",
+      "versionFrom": { "kind": "parameter", "parameter": "CrtVersion" },
+      "licenses": [{ "name": "Microsoft Visual C++ Runtime Library - proprietary, redistributable" }],
+      "supplier": "Microsoft Corporation",
+      "cveMonitoring": "manual",
+      "exposure": "network-reachable",
+      "notes": "STATICALLY LINKED via /MT, so a CRT vulnerability requires a rebuild and re-release rather than being fixed by Windows Update on the operator's machine."
+    }
+  ],
+
+  "dependencies": {
+    "mdnsresponder": ["msvc-crt"],
+    "msvc-crt": []
+  }
+}
